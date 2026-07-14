@@ -1,0 +1,24 @@
+# 자료형
+# 숫자형, 문자형(★)
+
+# 1. 숫자형 - 정수, 실수 8진수, 16진수
+a = 123
+print(a)
+
+a = -178
+print(a)
+
+a = 1.2
+print(a)
+
+a = -3.45
+print(a)
+
+multiline = """Life is too short,you need ptthon"""
+print(multiline)
+
+multiline = """
+Life is too short,
+you need python
+"""
+print(multiline)
