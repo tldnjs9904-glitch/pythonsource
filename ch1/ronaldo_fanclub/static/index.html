@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="CR7을 사랑하는 팬들의 커뮤니티">
+  <title>SIUUU CLUB — Ronaldo Fan Community</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home"><span>7</span> SIUUU CLUB</a>
+    <nav><a href="#legacy">LEGACY</a><a href="#moments">MOMENTS</a><a href="#join">JOIN</a></nav>
+    <button id="loginOpen" class="ghost">로그인</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">THE OFFICIAL UNOFFICIAL FAN COMMUNITY</p>
+        <h1>꿈꾸고,<br><em>증명하라.</em></h1>
+        <p class="lead">위대한 7번의 열정과 기록을 함께 기억하는 대한민국 팬 커뮤니티.</p>
+        <div class="actions"><a class="primary" href="#join">팬클럽 가입하기 →</a><a class="watch" href="#moments">▶ 전설의 순간</a></div>
+        <div class="stats"><div><strong>900+</strong><span>CAREER GOALS</span></div><div><strong>5×</strong><span>BALLON D'OR</span></div><div><strong id="memberCount">0</strong><span>OUR MEMBERS</span></div></div>
+      </div>
+      <div class="scroll">SCROLL TO EXPLORE <i></i></div>
+    </section>
+
+    <section id="legacy" class="section legacy">
+      <p class="eyebrow">A LEGACY LIKE NO OTHER</p>
+      <h2>한계를 넘어선 기록</h2>
+      <div class="cards">
+        <article><b>01</b><h3>끊임없는 도전</h3><p>매일 어제보다 나은 선수가 되기 위한 흔들리지 않는 노력.</p></article>
+        <article><b>02</b><h3>승리를 향한 집념</h3><p>가장 큰 무대, 가장 어려운 순간에 더욱 빛나는 승부사.</p></article>
+        <article><b>03</b><h3>영원한 No.7</h3><p>세대를 넘어 전 세계 팬에게 영감을 주는 축구의 아이콘.</p></article>
+      </div>
+    </section>
+
+    <section id="moments" class="quote"><p>“YOUR LOVE MAKES ME STRONG.<br>YOUR HATE MAKES ME UNSTOPPABLE.”</p><span>— CRISTIANO RONALDO</span></section>
+
+    <section id="join" class="section join">
+      <div><p class="eyebrow">JOIN THE LEGACY</p><h2>우리의 함성에<br>당신을 더하세요.</h2><p>팬들과 소식을 나누고 위대한 순간을 함께 기념하세요.</p></div>
+      <form id="joinForm">
+        <label>이름<input name="name" minlength="2" maxlength="30" placeholder="홍길동" required></label>
+        <label>이메일<input name="email" type="email" placeholder="fan@example.com" required></label>
+        <label>비밀번호<input name="password" type="password" minlength="8" placeholder="8자 이상" required></label>
+        <button class="primary" type="submit">무료로 가입하기 →</button>
+        <p id="formMessage" class="message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span>7</span> SIUUU CLUB</a><p>비공식 팬 제작 사이트 · 교육용 프로젝트</p></footer>
+
+  <dialog id="loginModal"><button id="loginClose" class="close">×</button><h2>다시 오셨군요!</h2><p>SIUUU CLUB에 로그인하세요.</p><form id="loginForm"><label>이메일<input name="email" type="email" required></label><label>비밀번호<input name="password" type="password" required></label><button class="primary">로그인</button><p id="loginMessage" class="message"></p></form></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
